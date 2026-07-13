@@ -1,5 +1,5 @@
 # RentCompute bot host — one-line installer.
-# Run on the ThinkPad in PowerShell:   iex (irm https://is.gd/SETUP)
+# Run on the ThinkPad in PowerShell:   iex (irm https://tinyurl.com/2cccbcuz)
 # (WSL2 + Ubuntu are already installed on this machine, so no reboot needed.)
 $ErrorActionPreference = 'Continue'
 Write-Host '== RentCompute bot host: setup ==' -ForegroundColor Cyan
@@ -20,4 +20,4 @@ Write-Host '== Bot host is READY ==' -ForegroundColor Green
 Write-Host 'Two steps left:' -ForegroundColor Yellow
 Write-Host '  1) Add your Discord token:   notepad \\wsl$\Ubuntu\root\rc-bot-host\bots\testbot\.env'
 Write-Host '     put the token after  DISCORD_TOKEN=  then Save & close.'
-Write-Host '  2) Start the bot:            iex (irm https://is.gd/START)'
+Write-Host '  2) Start the bot:            iex (irm https://tinyurl.com/25a5czvq)'

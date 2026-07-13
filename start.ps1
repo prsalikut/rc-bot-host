@@ -1,5 +1,5 @@
 # RentCompute bot host — start the test bot and show its logs.
-# Run on the ThinkPad after adding your token:   iex (irm https://is.gd/START)
+# Run on the ThinkPad after adding your token:   iex (irm https://tinyurl.com/25a5czvq)
 Write-Host '== Starting testbot ==' -ForegroundColor Cyan
 wsl -d Ubuntu -u root -- bash -c "cd /root/rc-bot-host && ./start-bot.sh testbot && sleep 5 && echo '----- LOGS -----' && docker logs rcbot-testbot 2>&1 | tail -n 25"
 Write-Host ''
