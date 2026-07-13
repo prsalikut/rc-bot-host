@@ -1,0 +1,3 @@
+# Each bot lives in bots/<name>/  (created by ./add-bot.sh)
+#   bots/<name>/app/   -> your bot code
+#   bots/<name>/.env   -> DISCORD_TOKEN=...
